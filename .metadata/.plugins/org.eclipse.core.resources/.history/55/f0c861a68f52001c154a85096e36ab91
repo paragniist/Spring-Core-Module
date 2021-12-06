@@ -1,0 +1,13 @@
+package com.setterdi.beans;
+
+public class WaterPump {
+	private Motor motor;
+	
+	public void on() {
+		motor.run();
+	}
+	
+	
+
+}
+  

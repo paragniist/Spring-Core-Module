@@ -1,0 +1,19 @@
+package com.setterdi.beans;
+
+public class WaterPump {
+	private Motor motor;
+	//don't go for inheritance rather go for composition***
+	
+	public void on() {
+		motor.run();
+	}
+	
+	//Also don't create object and don't go for pulling, rather inject it.
+	//There are two ways of DI, either setter or constructor
+
+
+	
+	
+
+}
+  

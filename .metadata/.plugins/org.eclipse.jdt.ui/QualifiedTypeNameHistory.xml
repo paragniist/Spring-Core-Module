@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.coredi.beans.IMessageFormatter"/>
+    <fullyQualifiedTypeName name="com.coredi.beans.MessageWriter"/>
+    <fullyQualifiedTypeName name="org.springframework.aop.framework.CglibAopProxy.SerializableNoOp"/>
+    <fullyQualifiedTypeName name="com.setterdi.beans.Motor"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+    <fullyQualifiedTypeName name="com.setterdi.beans.WaterPump"/>
+</qualifiedTypeNameHistroy>

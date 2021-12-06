@@ -1,0 +1,4 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/coredi/src/main/java/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/coredi/src/main/resources/com/coredi/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/setterdi/src/main/resources/com/setterdi/common/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+eclipse.preferences.version=1

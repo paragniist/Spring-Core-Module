@@ -1,0 +1,27 @@
+package com.coredi.test;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+import com.coredi.beans.IMessageFormatter;
+import com.coredi.beans.MessageWriter;
+
+public class COREDITest {
+
+	public static void main(String[] args) {
+		BeanFactory beanFactory = new XmlBeanFactory(
+				new ClassPathResource("com/coredi/common/application-context.xml"));
+		
+		MessageWriter messageWriter = beanFactory.getBean("messageWriter",MessageWriter.class);
+		
+		IMessageFormatter messageFormatter = beanFactory.getBean("htmlMessageFormatter", IMessageFormatter.class);
+		
+		messageWriter.setMessageFormatter(messageFormatter);
+		messageWriter.writeMessages("Welcome to Spring FrameWork");
+		
+		
+
+	}
+
+}
