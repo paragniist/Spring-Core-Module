@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="person" name="james,Rahul,manu" class="com.ba.beans.Person">
+<property name="personNo" value="123"/>
+<property name="personNameString" value="James"/>
+<property name="age" value="29"/>
+<property name="gender" value="Male"/>
+</bean>
+
+<alias name="james" alias="jimmy"/>
+<alias name="Rahul" alias="baby,gagan"/>
+<alias name="manu" alias="Parag Gupta"/>
+	
+</beans>

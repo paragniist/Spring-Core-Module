@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/parag/Documents/Code/Spring/"/>
+			<item value="/Users/parag/Documents/Code/Spring/primitivedi"/>
+			<item value="/Users/parag/Documents/Code/Spring/strategydp"/>
 			<item value="/Users/parag/Documents/Code/Spring/setterdi"/>
 			<item value="/Users/parag/Documents/Code/Spring/coredii"/>
 			<item value="/Users/parag/Documents/Code/Spring/coredi"/>
@@ -33,6 +36,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/parag/Documents/Code/Spring"/>
+			<item value="/Users/parag/Documents/Code/Spring/beanalias"/>
+			<item value="/Users/parag/Documents/Code/Spring/beanalias/src/main/java/com/ba/test/BATest.java"/>
+			<item value="/Users/parag/Documents/Code/Spring/strategydp/src/main/java/com/sdp/test/SDPTest.java"/>
 			<item value="/Users/parag/Documents/Code/Spring/coredi"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -42,6 +49,58 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="core.singleton"/>
+		</list>
+		<list key="groupId">
+			<item value="core"/>
+		</list>
+		<list key="artifactId">
+			<item value="singleton"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 </section>

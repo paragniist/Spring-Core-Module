@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="Bike" class="com.primitivedi.bean.Bike">
+<constructor-arg value="e234567"/>
+<constructor-arg value="ch03210"/>
+<constructor-arg value="MP04ss8929"/>
+
+<property name="color" value="red"/>
+<property name="fuelType" value="petrol"/>
+</bean>
+
+</beans>

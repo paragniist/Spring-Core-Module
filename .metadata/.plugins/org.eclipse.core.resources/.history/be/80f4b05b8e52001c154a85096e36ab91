@@ -1,5 +1,0 @@
-package com.setterdi.beans;
-
-public interface Motor {
-
-}

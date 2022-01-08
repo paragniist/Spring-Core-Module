@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="coredi"/>
+<aop-project name="beanalias"/>
+<aop-project name="primitivedi"/>
+<aop-project name="singleton"/>
+<aop-project name="collectiondi"/>
+<aop-project name="utilcollectiondi"/>
+<aop-project name="nestedbeanfactory"/>
 <aop-project name="setterdi"/>
 </aop-reference-model>
